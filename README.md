@@ -35,7 +35,7 @@ docker container logs csvserver
 ```
 
 2. Error Found:- 
-2022/09/20 05:23:53 error while reading the file "/csvserver/inputdata": open /csvserver/inputdata: no such file or directory
+> **NOTE**: ERROR:- 2022/09/20 05:23:53 error while reading the file "/csvserver/inputdata": open /csvserver/inputdata: no such file or directory
 
 3. Write the bash script `gencsv.sh` to generate a file `inputFile`
 ```sh
